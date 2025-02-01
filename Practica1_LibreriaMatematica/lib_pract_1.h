@@ -125,5 +125,15 @@ namespace libreriaPractica1 {
 	//multiplicacion matriz*vector
 	inline Vector4f operator*(Matrix4x4f m, Vector4f v) {
 
+		Vector4f res;
+
+			//calcular cada componente del result (x,y,z,w) sumando los productos correspondientes de la fila de la matriz con las ccomponentes del vector
+			res.x= m.matrix[0][0] * v.x + m.matrix[0][1] * v.y + m.matrix[0][2] * v.z + m.matrix[0][3] * v.w;
+			res.y= m.matrix[1][0] * v.x + m.matrix[1][1] * v.y + m.matrix[1][2] * v.z + m.matrix[1][3] * v.w;
+			res.z= m.matrix[2][0] * v.x + m.matrix[2][1] * v.y + m.matrix[2][2] * v.z + m.matrix[2][3] * v.w;
+			res.w= m.matrix[3][0] * v.x + m.matrix[3][1] * v.y + m.matrix[3][2] * v.z + m.matrix[3][3] * v.w;
+
+		return res;
+
 	}
 }
