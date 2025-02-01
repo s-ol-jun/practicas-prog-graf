@@ -4,11 +4,15 @@
 
 namespace libreriaPractica1 {
 	typedef struct {
-		float x, y, z, w;
+		union{
+		struct {float x, y, z, w;};
+		};
 	} Vector4f;
 
 	typedef struct {
-	    float matrix[4][4];
+	    union{
+		float matrix[4][4];
+		};
 	} Matrix4x4f;
 
     //Constructor de estructuras vector4f
@@ -68,7 +72,7 @@ namespace libreriaPractica1 {
 		
 		Matrix4x4f mat = {0}; //matriz 4x4 con todos los elementos 0
 
-		for(int i=0; i<4, i++){
+		for(int i=0; i<4; i++){
 
 			mat.matrix[i][j] = 1.0f; //diagonal principal con numero 1 asignado
 
