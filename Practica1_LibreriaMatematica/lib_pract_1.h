@@ -30,7 +30,7 @@ namespace libreriaPractica1 {
 	}
 
 	//Multiplicación escalar (Dot product)
-	inline float operator* (vector4f v1, vector4f v2) {
+	inline float operator* (Vector4f v1, Vector4f v2) {
 		float res = v1.x * v2.x + 
 					v1.y * v2.y + 
 					v1.z * v2.z + 
@@ -49,12 +49,12 @@ namespace libreriaPractica1 {
 	}
 
     //Suma de vectores
-    inline vector4f operator+ (vector4f v1, vector4f v2) {
+    inline Vector4f operator+ (Vector4f v1, Vector4f v2) {
 		return {v1.x + v2.x, v1.y + v2.y, v1.z + v2.z, v1.w + v2.w};
 	}
 
     //Resta de vectores
-    inline vector4f operator- (vector4f v1, vector4f v2) {
+    inline Vector4f operator- (Vector4f v1, Vector4f v2) {
 		return {v1.x - v2.x, v1.y - v2.y, v1.z - v2.z, v1.w - v2.w};
 	}
 }
