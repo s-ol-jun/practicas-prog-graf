@@ -28,22 +28,33 @@ namespace libreriaPractica1 {
 				v.w              //W no modifica
 		};
 	}
-    
-    //Multiplicación escalar (Dot product)
-    inline vector4f operator* (vector4f v1, float esc) {}
 
-    //Multiplicación vectorial (Cross product)
+	//Multiplicación escalar (Dot product)
 	inline float operator* (vector4f v1, vector4f v2) {
 		float res = v1.x * v2.x + 
 					v1.y * v2.y + 
 					v1.z * v2.z + 
 					v1.w * v2.w;
-		return res;
+		return res; 
+	}
+
+    //Multiplicación vectorial (Cross product)
+	inline Vector4f cross_product(Vector4f v1, Vector4f v2) {
+		return {
+			v1.y * v2.z - v1.z * v2.y,
+			v1.z * v2.x - v1.x * v2.z,
+			v1.x * v2.y - v1.y * v2.x,
+			0.0f
+		};
 	}
 
     //Suma de vectores
-    inline vector4f operator+ (vector4f v1, vector4f v2) {}
+    inline vector4f operator+ (vector4f v1, vector4f v2) {
+		return {v1.x + v2.x, v1.y + v2.y, v1.z + v2.z, v1.w + v2.w};
+	}
 
     //Resta de vectores
-    inline vector4f operator- (vector4f v1, vector4f v2) {}
+    inline vector4f operator- (vector4f v1, vector4f v2) {
+		return {v1.x - v2.x, v1.y - v2.y, v1.z - v2.z, v1.w - v2.w};
+	}
 }
