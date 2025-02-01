@@ -12,10 +12,22 @@ namespace libreriaPractica1 {
 	} Matrix4x4f;
 
     //Constructor de estructuras vector4f
-    inline Vector4f make_vector4f(float x, float y, float z,float w) {}
+    inline Vector4f make_vector4f(float x, float y, float z,float w) {
+		return {x, y, z, w};
+	}
 
     //Función para normalizar vectores
-    inline Vector4f normalize(Vector4f v) {}
+    inline Vector4f normalize(Vector4f v) {
+
+		float magnitude = std::sqrt(v.x * v.x + v.y * v.y + v.z * v.z); //formula de la magnitud (solo X,Y,Z)
+        if (magnitude == 0) return {0, 0, 0, v.w};  //Evitar división por 0
+		return {
+				v.x / magnitude,  //X normalizada
+				v.y / magnitude,  //Y normalizada
+				v.z / magnitude,  //Z normalizada
+				v.w              //W no modifica
+		};
+	}
     
     //Multiplicación escalar (Dot product)
     inline vector4f operator* (vector4f v1, float esc) {}
