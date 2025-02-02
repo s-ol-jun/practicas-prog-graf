@@ -4,16 +4,43 @@ class Render {
         int width;
         char** render;
 
-        Render::Render(int h, int w) {
+        Render(int h, int w) {
             height = h;
             width = w;
-            //render = char[h][w];      No me acuerdo de como crear un array sin tamaño especificado y luego especificar el tamaño en el constructor; lo que 
-            //  tengo por ahora no funciona
+            
+            render = new char*[height]; //array de punteros
+
+            for (int i = 0; i < height; i++) { //recorremos cada fila
+                render[i] = new char[width]; //asigna array dinamico de tamaño width 
+                std::fill(render[i], render[i] + width, ' '); //llenamos cada fila con espacios vacios
+            }
+
         }
 
-        void Render::PutPixel(int x, int y) {}
+        ~Render(){
 
-        void Render::resetBufer() {}
+            for (int i = 0; i < height; i++) {
+                delete[] render[i];  //libera cada fila
+            }
+            delete[] render;  //libera el array de punteros
 
-        void Render::Draw() {}
+        }
+
+        void Render::PutPixel(int x, int y, char pixel = '*'){
+
+
+
+        }
+
+        void Render::resetBufer(){
+
+
+
+        }
+
+        void Render::Draw(){
+
+            
+
+        }
 };
