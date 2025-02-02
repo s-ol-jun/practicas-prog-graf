@@ -118,8 +118,29 @@ namespace libreriaPractica1 {
 	}
 
 	//multiplicacion matriz*matriz
-	inline Matrix4x4f operator*(Matrix4x4f m1, Matrix4x4f m2) {
+	inline Matrix4x4f operator*(Matrix4x4f m1, Matrix4x4f m2) {		
+		//He buscado si había algotitmos para hacer esto de forma iterativa/más sencilla, pero todo lo que he encontrado era de una complejidad enorme,ç
+		//	así que por ahora lo dejaré con cada número hecho uno a uno para no perder el tiempo
+		Matrix4x4f resMat;
+		resMat.matrix[0][0] = m1.matrix[0][0]*m2.matrix[0][0]+m1.matrix[1][0]*m2.matrix[0][1]+m1.matrix[2][0]*m2.matrix[0][2]+m1.matrix[3][0]*m2.matrix[0][3];
+		resMat.matrix[0][1] = m1.matrix[0][1]*m2.matrix[0][0]+m1.matrix[1][1]*m2.matrix[0][1]+m1.matrix[2][1]*m2.matrix[0][2]+m1.matrix[3][1]*m2.matrix[0][3];
+		resMat.matrix[0][2] = m1.matrix[0][2]*m2.matrix[0][0]+m1.matrix[1][2]*m2.matrix[0][1]+m1.matrix[2][2]*m2.matrix[0][2]+m1.matrix[3][2]*m2.matrix[0][3];
+		resMat.matrix[0][3] = m1.matrix[0][3]*m2.matrix[0][0]+m1.matrix[1][3]*m2.matrix[0][1]+m1.matrix[2][3]*m2.matrix[0][2]+m1.matrix[3][3]*m2.matrix[0][3];
 
+		resMat.matrix[1][0] = m1.matrix[0][0]*m2.matrix[1][0]+m1.matrix[1][0]*m2.matrix[1][1]+m1.matrix[2][0]*m2.matrix[1][2]+m1.matrix[3][0]*m2.matrix[1][3];
+		resMat.matrix[1][1] = m1.matrix[0][1]*m2.matrix[1][0]+m1.matrix[1][1]*m2.matrix[1][1]+m1.matrix[2][1]*m2.matrix[1][2]+m1.matrix[3][1]*m2.matrix[1][3];
+		resMat.matrix[1][2] = m1.matrix[0][2]*m2.matrix[1][0]+m1.matrix[1][2]*m2.matrix[1][1]+m1.matrix[2][2]*m2.matrix[1][2]+m1.matrix[3][2]*m2.matrix[1][3];
+		resMat.matrix[1][3] = m1.matrix[0][3]*m2.matrix[1][0]+m1.matrix[1][3]*m2.matrix[1][1]+m1.matrix[2][3]*m2.matrix[1][2]+m1.matrix[3][3]*m2.matrix[1][3];
+
+		resMat.matrix[2][0] = m1.matrix[0][0]*m2.matrix[2][0]+m1.matrix[1][0]*m2.matrix[2][1]+m1.matrix[2][0]*m2.matrix[2][2]+m1.matrix[3][0]*m2.matrix[2][3];
+		resMat.matrix[2][1] = m1.matrix[0][1]*m2.matrix[2][0]+m1.matrix[1][1]*m2.matrix[2][1]+m1.matrix[2][1]*m2.matrix[2][2]+m1.matrix[3][1]*m2.matrix[2][3];
+		resMat.matrix[2][2] = m1.matrix[0][2]*m2.matrix[2][0]+m1.matrix[1][2]*m2.matrix[2][1]+m1.matrix[2][2]*m2.matrix[2][2]+m1.matrix[3][2]*m2.matrix[2][3];
+		resMat.matrix[2][3] = m1.matrix[0][3]*m2.matrix[2][0]+m1.matrix[1][3]*m2.matrix[2][1]+m1.matrix[2][3]*m2.matrix[2][2]+m1.matrix[3][3]*m2.matrix[2][3];
+
+		resMat.matrix[3][0] = m1.matrix[0][0]*m2.matrix[3][0]+m1.matrix[1][0]*m2.matrix[3][1]+m1.matrix[2][0]*m2.matrix[3][2]+m1.matrix[3][0]*m2.matrix[3][3];
+		resMat.matrix[3][1] = m1.matrix[0][1]*m2.matrix[3][0]+m1.matrix[1][1]*m2.matrix[3][1]+m1.matrix[2][1]*m2.matrix[3][2]+m1.matrix[3][1]*m2.matrix[3][3];
+		resMat.matrix[3][2] = m1.matrix[0][2]*m2.matrix[3][0]+m1.matrix[1][2]*m2.matrix[3][1]+m1.matrix[2][2]*m2.matrix[3][2]+m1.matrix[3][2]*m2.matrix[3][3];
+		resMat.matrix[3][3] = m1.matrix[0][3]*m2.matrix[3][0]+m1.matrix[1][3]*m2.matrix[3][1]+m1.matrix[2][3]*m2.matrix[3][2]+m1.matrix[3][3]*m2.matrix[3][3];
 	}
 
 	//multiplicacion matriz*vector
