@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marta\\OneDrive\\Escritorio\\ProgGrafica_2024\\ProgGrafica_2024-ejercicios-casa\\",
+  "WorkspaceRootPath": "C:\\Users\\marta\\OneDrive\\Documentos\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|C:\\Users\\marta\\OneDrive\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -20,10 +20,10 @@
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\marta\\OneDrive\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
+              "RelativeDocumentMoniker": "..\\Practica1_LibreriaMatematica\\main.cpp",
               "ToolTip": "C:\\Users\\marta\\OneDrive\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
-              "RelativeToolTip": "..\\..\\..\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowC8AAABNAAAAAAAAAA==",
+              "RelativeToolTip": "..\\Practica1_LibreriaMatematica\\main.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-03T13:07:11.452Z",
               "EditorCaption": ""
