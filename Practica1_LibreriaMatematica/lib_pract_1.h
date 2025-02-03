@@ -74,7 +74,7 @@ namespace libreriaPractica1 {
 
 		for(int i=0; i<4; i++){
 
-			mat.matrix[i][j] = 1.0f; //diagonal principal con numero 1 asignado
+			mat.matrix[i][i] = 1.0f; //diagonal principal con numero 1 asignado
 
 		}
 		return mat;

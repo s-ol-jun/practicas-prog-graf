@@ -1,3 +1,6 @@
+#include <iostream>  // Para std::cout y std::endl
+#include <algorithm> // Para std::fill
+
 class Render {
     public:
         int height;
@@ -35,7 +38,7 @@ class Render {
 
         }
 
-        void resetBufer(){
+        void resetBuffer(){
 
             for (int i = 0; i < height; i++) {
                 std::fill(render[i], render[i] + width, ' ');  //llena cada fila con espacios
