@@ -26,21 +26,31 @@ class Render {
 
         }
 
-        void Render::PutPixel(int x, int y, char pixel = '*'){
+        void PutPixel(int x, int y, char pixel = '*'){
 
-
-
-        }
-
-        void Render::resetBufer(){
-
-
+            //comprueba que la posicion este dentro de los limites del framebuffer
+            if (x >= 0 && x < width && y >= 0 && y < height) {
+                render[y][x] = pixel;  //coloca el píxel en la posición indicada
+            }
 
         }
 
-        void Render::Draw(){
+        void resetBufer(){
 
-            
+            for (int i = 0; i < height; i++) {
+                std::fill(render[i], render[i] + width, ' ');  //llena cada fila con espacios
+            }
+
+        }
+
+        void Draw(){
+
+            for (int i = 0; i < height; i++) {
+                for (int j = 0; j < width; j++) {
+                    std::cout << render[i][j];  //muestra cada carácter de la fila
+                }
+                std::cout << std::endl;  //nueva línea al final de cada fila
+            }
 
         }
 };

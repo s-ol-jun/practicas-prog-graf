@@ -111,10 +111,21 @@ namespace libreriaPractica1 {
 	}
 
 	//matriz de rotacion
-	inline Matrix4x4f make_rotate_z(float angle) {
+	inline Matrix4x4f make_rotation_xyz(float angleX, float angleY, float angleZ) {
+    float cosX = std::cos(angleX), sinX = std::sin(angleX);
+    float cosY = std::cos(angleY), sinY = std::sin(angleY);
+    float cosZ = std::cos(angleZ), sinZ = std::sin(angleZ);
 
-		//no la hice que queria entender mas la parte de la rotacion alrededor de cada eje 
+    Matrix4x4f mat = { 
+			.matrix {
+			{(cos(angleZ)*cos(angleY)), (cos(angleZ)*sin(angleY)*sin(angleX) - sin(angleZ)*cos(angleX)), (cos(angleZ)*sin(angleY)*cos(angleX) + sin(angleZ)*sin(angleX)), 0},
+			{(sin(angleZ)*cos(angleY)), (sin(angleZ)*sin(angleY)*sin(angleX) + cos(angleZ)*cos(angleX)), (sin(angleZ)*sin(angleY)*cos(angleX) - cos(angleZ)*sin(angleX)), 0},
+			{(-1 * sin(angleY)),		(cos(angleY)*sin(angleX)),										 (cos(angleY)*cos(angleX)), 									  0},
+			{0, 0, 0, 1}
+			}
+		};
 
+		return mat;
 	}
 
 	//multiplicacion matriz*matriz
