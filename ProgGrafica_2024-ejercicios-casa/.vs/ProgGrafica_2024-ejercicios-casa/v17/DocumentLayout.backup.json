@@ -1,9 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marta\\OneDrive\\Escritorio\\ProgGrafica_2024\\ProgGrafica_2024-ejercicios-casa\\",
+  "WorkspaceRootPath": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|C:\\Users\\marta\\OneDrive\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\lib_pract_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\lib_pract_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +28,40 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\marta\\OneDrive\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
-              "ToolTip": "C:\\Users\\marta\\OneDrive\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
-              "RelativeToolTip": "..\\..\\..\\Documentos\\practicas-prog-graf\\Practica1_LibreriaMatematica\\main.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowC8AAABNAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\main.cpp",
+              "RelativeDocumentMoniker": "ProgGrafica_2024\\main.cpp",
+              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\main.cpp",
+              "RelativeToolTip": "ProgGrafica_2024\\main.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-03T13:07:11.452Z",
+              "WhenOpened": "2025-02-03T17:52:26.412Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lib_pract_1.h",
+              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\lib_pract_1.h",
+              "RelativeDocumentMoniker": "ProgGrafica_2024\\lib_pract_1.h",
+              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\lib_pract_1.h",
+              "RelativeToolTip": "ProgGrafica_2024\\lib_pract_1.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-03T17:52:29.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "render.cpp",
+              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\render.cpp",
+              "RelativeDocumentMoniker": "ProgGrafica_2024\\render.cpp",
+              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\ProgGrafica_2024-ejercicios-casa\\ProgGrafica_2024\\render.cpp",
+              "RelativeToolTip": "ProgGrafica_2024\\render.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-03T17:52:27.419Z",
               "EditorCaption": ""
             }
           ]

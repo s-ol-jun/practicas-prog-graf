@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documentos\practicas-prog-graf\Practica1_LibreriaMatematica\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documentos\practicas-prog-graf\Practica1_LibreriaMatematica\render.cpp">
+    <ClCompile Include="render.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documentos\practicas-prog-graf\Practica1_LibreriaMatematica\lib_pract_1.h">
+    <ClInclude Include="lib_pract_1.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

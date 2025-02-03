@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documentos\practicas-prog-graf\Practica1_LibreriaMatematica\main.cpp" />
-    <ClCompile Include="..\..\..\..\Documentos\practicas-prog-graf\Practica1_LibreriaMatematica\render.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="render.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documentos\practicas-prog-graf\Practica1_LibreriaMatematica\lib_pract_1.h" />
+    <ClInclude Include="lib_pract_1.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
