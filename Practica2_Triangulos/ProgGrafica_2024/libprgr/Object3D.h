@@ -1,0 +1,38 @@
+#pragma once
+#include "vectorMath.h"
+#define GLAD_BIN
+#include "common.h"
+#include "vertex.h"
+using namespace libPRGR;
+
+class Object3D {
+public: 
+	vector4f position;
+	vector4f rotation;
+	vector4f scale;
+	matrix4x4f modelMatrix;
+	// Lista de vértices del objeto
+	std::vector<Vertex> vertexList;
+	// Lista con los índices que se usarán para dibujar la lista de vértices
+	std::vector<int> idList;
+
+	/*
+		Método que inicializa la lista de vértices con 3 vértices formando un triángulo cuyo
+		centro se encontrará en el origen de coordenadas(0, 0, 0)
+	*/
+	void createTriangle();
+	
+	/*
+		Método virtual (podrá ser reescrito por clases herederas) que actualiza la
+		posición / rotación / escalado del objeto.Deberá consultar el estado del teclado, y si se
+		pulsa la tecla “D” aumentará el ángulo de giro en el eje Y.
+		o Si se pulsa la tecla “A” disminuirá el ángulo de giro en el eje Y
+	*/
+	virtual void move(double timeStep);
+	
+	/*
+		Método que actualiza la matriz modelo en base a los datos de posición, rotación y
+		escalado de este objeto
+	*/
+	void updateModelMatrix();
+};
