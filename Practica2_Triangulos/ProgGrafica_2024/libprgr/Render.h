@@ -3,6 +3,7 @@
 #define GLAD_BIN
 #include "common.h"
 #include "Object3D.h"
+#include "bufferObject.h"
 using namespace libPRGR;
 
 class Render {

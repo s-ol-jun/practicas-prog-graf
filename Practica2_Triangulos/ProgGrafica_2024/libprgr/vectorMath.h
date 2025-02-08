@@ -59,4 +59,8 @@ namespace libPRGR {
 		};
 		return mat4x4;
 	}
+
+	inline matrix4x4f makeRotate(float angle) {
+
+	}
 }

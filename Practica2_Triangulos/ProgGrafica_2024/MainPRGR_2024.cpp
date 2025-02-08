@@ -2,7 +2,7 @@
 #include "libprgr/vectorMath.h"
 #define GLAD_BIN
 #include "libprgr/common.h"
-#include "libprgr/EventManager.h"
+#include "libprgr/InputManager.h"
 using namespace libPRGR;
 
 class Object;

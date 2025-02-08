@@ -1,15 +1,18 @@
-﻿  EventManager.cpp
-D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\libprgr\vectorMath.h(49,23): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-  (compilando archivo de origen "libprgr/EventManager.cpp")
-  
-  MainPRGR_2024.cpp
+﻿  MainPRGR_2024.cpp
 D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\libprgr\vectorMath.h(49,23): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
   (compilando archivo de origen "MainPRGR_2024.cpp")
   
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(24,2): error C2653: 'EventManager': no es un nombre de clase o espacio de nombres
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(24,16): error C3861: 'init': no se encontró el identificador
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(59,7): error C2653: 'EventManager': no es un nombre de clase o espacio de nombres
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(59,21): error C2065: 'keyState': identificador no declarado
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(63,7): error C2653: 'EventManager': no es un nombre de clase o espacio de nombres
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(63,21): error C2065: 'keyState': identificador no declarado
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(67,7): error C2653: 'EventManager': no es un nombre de clase o espacio de nombres
+D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(67,21): error C2065: 'keyState': identificador no declarado
 D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(68,26): error C2027: uso del tipo 'Bullet' sin definir
       D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(9,7):
       vea la declaración de 'Bullet'
   
 D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(68,4): error C3861: 'setUpObject': no se encontró el identificador
 D:\00_ProgramacionWorkspaces\Visual Studio_VSCode\UNI-3-ProgGraf\practicas-prog-graf\Practica2_Triangulos\ProgGrafica_2024\MainPRGR_2024.cpp(141,56): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
-  Generando código...

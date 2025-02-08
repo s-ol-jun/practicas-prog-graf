@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\MainPRGR_2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\MainPRGR_2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\libprgr\\render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vectorMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\libprgr\\vectorMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\libprgr\\Render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Object3D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\libprgr\\Object3D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Object3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\libprgr\\Object3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vertex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\libprgr\\vertex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\MainPRGR_2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\MainPRGR_2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vectorMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A041F2C-DE93-458A-8308-8137B2BF8AE2}|ProgGrafica_2024\\ProgGrafica_2024.vcxproj|solutionrelative:ProgGrafica_2024\\libprgr\\vectorMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPRGR_2024.cpp",
+              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\MainPRGR_2024.cpp",
+              "RelativeDocumentMoniker": "ProgGrafica_2024\\MainPRGR_2024.cpp",
+              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\MainPRGR_2024.cpp",
+              "RelativeToolTip": "ProgGrafica_2024\\MainPRGR_2024.cpp",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T13:07:45.409Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "vertex.h",
-              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vertex.h",
-              "RelativeDocumentMoniker": "ProgGrafica_2024\\libprgr\\vertex.h",
-              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vertex.h",
-              "RelativeToolTip": "ProgGrafica_2024\\libprgr\\vertex.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-05T18:32:50.526Z",
+              "Title": "Object3D.cpp",
+              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Object3D.cpp",
+              "RelativeDocumentMoniker": "ProgGrafica_2024\\libprgr\\Object3D.cpp",
+              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Object3D.cpp",
+              "RelativeToolTip": "ProgGrafica_2024\\libprgr\\Object3D.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T13:07:02.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vectorMath.h",
-              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vectorMath.h",
-              "RelativeDocumentMoniker": "ProgGrafica_2024\\libprgr\\vectorMath.h",
-              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vectorMath.h",
-              "RelativeToolTip": "ProgGrafica_2024\\libprgr\\vectorMath.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-05T18:30:16.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Object3D.h",
               "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Object3D.h",
               "RelativeDocumentMoniker": "ProgGrafica_2024\\libprgr\\Object3D.h",
               "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Object3D.h",
               "RelativeToolTip": "ProgGrafica_2024\\libprgr\\Object3D.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-05T18:29:14.785Z",
+              "WhenOpened": "2025-02-08T13:07:00.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Render.cpp",
+              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Render.cpp",
+              "RelativeDocumentMoniker": "ProgGrafica_2024\\libprgr\\Render.cpp",
+              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Render.cpp",
+              "RelativeToolTip": "ProgGrafica_2024\\libprgr\\Render.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T18:39:26.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Render.h",
               "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Render.h",
               "RelativeDocumentMoniker": "ProgGrafica_2024\\libprgr\\Render.h",
               "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\Render.h",
               "RelativeToolTip": "ProgGrafica_2024\\libprgr\\Render.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-05T18:13:15.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPRGR_2024.cpp",
-              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\MainPRGR_2024.cpp",
-              "RelativeDocumentMoniker": "ProgGrafica_2024\\MainPRGR_2024.cpp",
-              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\MainPRGR_2024.cpp",
-              "RelativeToolTip": "ProgGrafica_2024\\MainPRGR_2024.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-05T18:07:15.03Z",
+              "DocumentIndex": 5,
+              "Title": "vectorMath.h",
+              "DocumentMoniker": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vectorMath.h",
+              "RelativeDocumentMoniker": "ProgGrafica_2024\\libprgr\\vectorMath.h",
+              "ToolTip": "D:\\00_ProgramacionWorkspaces\\Visual Studio_VSCode\\UNI-3-ProgGraf\\practicas-prog-graf\\Practica2_Triangulos\\ProgGrafica_2024\\libprgr\\vectorMath.h",
+              "RelativeToolTip": "ProgGrafica_2024\\libprgr\\vectorMath.h",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T18:30:16.814Z",
               "EditorCaption": ""
             }
           ]

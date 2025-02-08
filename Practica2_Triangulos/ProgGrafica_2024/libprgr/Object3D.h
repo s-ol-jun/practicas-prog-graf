@@ -3,14 +3,21 @@
 #define GLAD_BIN
 #include "common.h"
 #include "vertex.h"
+#include "vectorMath.h"
 using namespace libPRGR;
 
 class Object3D {
 public: 
+	inline static int idCounter = 0;
+
+	// Id asociado al objeto
+	int id;
+
 	vector4f position;
 	vector4f rotation;
 	vector4f scale;
 	matrix4x4f modelMatrix;
+
 	// Lista de vértices del objeto
 	std::vector<Vertex> vertexList;
 	// Lista con los índices que se usarán para dibujar la lista de vértices
@@ -28,7 +35,9 @@ public:
 		pulsa la tecla “D” aumentará el ángulo de giro en el eje Y.
 		o Si se pulsa la tecla “A” disminuirá el ángulo de giro en el eje Y
 	*/
-	virtual void move(double timeStep);
+	virtual void move(double timeStep) {
+		
+	}
 	
 	/*
 		Método que actualiza la matriz modelo en base a los datos de posición, rotación y

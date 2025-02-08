@@ -18,7 +18,7 @@
     <ClCompile Include="MainPRGR_2024.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="libprgr\EventManager.cpp">
+    <ClCompile Include="libprgr\InputManager.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="libprgr\Object3D.cpp">
@@ -32,7 +32,7 @@
     <ClInclude Include="libprgr\common.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="libprgr\EventManager.h">
+    <ClInclude Include="libprgr\InputManager.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="libprgr\vectorMath.h">
@@ -45,6 +45,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="libprgr\vertex.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\bufferObject.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
