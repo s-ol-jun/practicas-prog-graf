@@ -60,7 +60,20 @@ namespace libPRGR {
 		return mat4x4;
 	}
 
-	inline matrix4x4f makeRotate(float angle) {
+	inline matrix4x4f makeRotate(float angleX, float angleY, float angleZ) {
+		float cosX = std::cos(angleX), sinX = std::sin(angleX);
+		float cosY = std::cos(angleY), sinY = std::sin(angleY);
+		float cosZ = std::cos(angleZ), sinZ = std::sin(angleZ);
 
+		matrix4x4f mat = {
+			.rows {
+			{(cos(angleZ) * cos(angleY)), (cos(angleZ) * sin(angleY) * sin(angleX) - sin(angleZ) * cos(angleX)), (cos(angleZ) * sin(angleY) * cos(angleX) + sin(angleZ) * sin(angleX)), 0},
+			{(sin(angleZ) * cos(angleY)), (sin(angleZ) * sin(angleY) * sin(angleX) + cos(angleZ) * cos(angleX)), (sin(angleZ) * sin(angleY) * cos(angleX) - cos(angleZ) * sin(angleX)), 0},
+			{(-1 * sin(angleY)),		  (cos(angleY) * sin(angleX)),											 (cos(angleY) * cos(angleX)), 										    0},
+			{0, 0, 0, 1}
+			}
+		};
+
+		return mat;
 	}
 }

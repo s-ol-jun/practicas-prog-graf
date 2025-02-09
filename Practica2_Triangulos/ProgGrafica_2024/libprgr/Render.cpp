@@ -46,6 +46,7 @@ void Render::putObject(Object3D* obj)
 
 void Render::removeObject(Object3D* obj)
 {
+
 }
 
 void Render::drawGL()
