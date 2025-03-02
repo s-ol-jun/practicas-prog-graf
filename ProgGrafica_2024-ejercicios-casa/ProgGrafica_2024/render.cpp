@@ -48,7 +48,7 @@ class Render {
 
         void Draw(){
 
-            for (int i = 0; i < height; i++) {
+            for (int i = height-1; i > 0; i--) {
                 for (int j = 0; j < width; j++) {
                     std::cout << render[i][j];  //muestra cada carácter de la fila
                 }
